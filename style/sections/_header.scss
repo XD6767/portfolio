@@ -1,4 +1,46 @@
+@use '../variables';
+
 .header {
-    height: 100px;
-    background-color: greenyellow;
+    background-color: white;
+}
+.nav {
+    // display: flex;
+    // justify-content: center;
+}
+.list-button {
+    display: flex;
+    align-items: center;
+    background-color: variables.$navColor;
+    max-width: 1298px;
+    width: 100%;
+    justify-content: center;
+    // height: 86px;
+    // width: 1298px;
+    list-style: none;
+    // list-style-type: none;
+    // padding: 10px;
+    border-radius: 90px;
+    // margin: 0;
+    gap: 14px;
+    margin: 0 auto;
+}
+.anchor-link {
+    text-decoration: none;
+    font-size: 20px;
+    // width: 136px;
+    // height: 66px;
+    padding: 20px 40px;
+    border-radius: 60px;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    color: white;
+}
+.anchor-link--active {
+    background-color: variables.$buttonColor;
+    color: black;
+}
+
+.logo {
+    padding: 20px 84px;
 }
