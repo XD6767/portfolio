@@ -35,12 +35,21 @@
     font-weight: 400;
     display: block;
     color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.anchor-link--active {
-    background-color: variables.$buttonColor;
-    color: black;
-}
+// .anchor-link--active {
+//     background-color: variables.$buttonColor;
+//     color: black;
+// }
 
 .logo {
     padding: 20px 84px;
+}
+
+@media (hover: hover) {
+    .anchor-link:hover {
+    background-color: variables.$buttonColor;
+    color: black;
+    }
 }
